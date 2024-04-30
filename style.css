@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; 
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    background-color: #D17B88;
+    max-width: 350px; /* Adjusted max-width for responsiveness */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Added padding */
+    border: 2px solid black;
+    border-radius: 8px;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+input {
+    width: 100%;
+    height: 3rem;
+    margin: 10px 0; /* Adjusted margin */
+    padding: 0.5rem; /* Added padding */
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Adjusted margin */
+}
+
+.button {
+    flex: 1; /* Each button takes up equal space */
+    padding: 15px; /* Adjusted padding */
+    margin: 5px; /* Adjusted margin */
+    font-size: 1.2em; /* Adjusted font size */
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
